@@ -1,0 +1,219 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Sergio Manuel!}}"
+            },
+            "es": {
+                "title_short": "¡Saludos!",
+                "title_short_nav": "Sobre mí",
+                "title_long_prefix": "Hola...",
+                "title_long": "Soy {{Sergio Manuel!}}"
+            },
+            "fr": {
+                "title_short": "Salut !",
+                "title_short_nav": "À propos",
+                "title_long_prefix": "Salut...",
+                "title_long": "Je suis {{Sergio Manuel !}}"
+            },
+            "ko": {
+                "title_short": "환영합니다!",
+                "title_short_nav": "소개",
+                "title_long_prefix": "안녕하세요...",
+                "title_long": "저는 {{최민석}}입니다!"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Ciudad de México",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "castanedasergio@hotmail.com",
+                    "link": {"href": "mailto:castanedasergio@hotmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@77Sergio",
+                    "link": {"href": "https://github.com/77Sergio", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."},
+                "es": {"title": "{{Un poco}} sobre mí..."},
+                "fr": {"title": "{{Un peu}} à propos de moi..."},
+                "ko": {"title": "저에 {{대해 조금}}..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I’m a {{Web}} developer with [[over 20 years]] of experience, designing, maintaining, and supporting responsive websites, portals, and applications. Frontend experience with React, JavaScript, HTML, and CSS, as well as integration with PHP, Laravel, Python, and Django, MySQL databases, and WordPress and Moodle platforms. Background in financial services, retail, and government. Application support L2 experience and daily professional use of English.</p><p>I look forward to collaborating [[with you!]]</p>"
+                        },
+                        "es": {
+                            "text": "<p>Soy un desarrollador {{Web}} con [[más de 20 años]] de experiencia, en diseño, mantenimiento y soporte de sitios, portales y aplicaciones web responsivas. Experiencia en frontend con React, JavaScript, HTML y CSS, así como en integración con PHP, Laravel, Python y Django, bases de datos MySQL y plataformas WordPress y Moodle. Trayectoria en servicios financieros, retail y gobierno. Experiencia de soporte de aplicaciones L2 y trabajo diario en inglés.</p><p>¡Espero con interés colaborar [[contigo!]]</p>"
+                        }                    }
+                }
+            ]
+        },
+
+
+
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{interests}}"},
+                "es": {"title": "Intereses {{personales}}"},
+                "fr": {"title": "Intérêts {{personnels}} "},
+                "ko": {"title": "개인 {{관심사}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{AI}} coding",
+                            "text": "Learning to use AI tools to enhance my coding skills."
+                        },
+                        "es": {
+                            "title": "Programación con {{AI}}",
+                            "text": "Aprendiendo a utilizar herramientas de IA para mejorar mis habilidades como programador."
+                        },
+                        "fr": {
+                            "title": "Édition vidéo avec {{IA}}",
+                            "text": "Apprendre à utiliser des outils d'IA pour améliorer mes vidéos."
+                        },
+                        "ko": {
+                            "title": "{{AI}} 비디오 편집",
+                            "text": "AI 도구를 사용하여 내 영상을 향상시키는 방법 배우기."
+                        }
+                    }
+                },
+               
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Insurance}} & Finance",
+                            "text": "Knowledge of insurance and finance, gained through my experience at MetLife, AXA, CITI, and Banamex."
+                        },
+                        "es": {
+                            "title": "{{Seguros}} y Finanzas",
+                            "text": "Conocimiento de seguros y finanzas por mi experiencia en MetLife, AXA, CITI y Banamex."
+                        },
+                        "fr": {
+                            "title": "{{Investissement}} & Finance",
+                            "text": "Apprendre les bases des actions et des finances personnelles."
+                        },
+                        "ko": {
+                            "title": "{{투자}} 및 재정 관리",
+                            "text": "주식과 개인 재정의 기초 배우기."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-window-restore",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{UX}} design",
+                            "text": "Extensive experience designing user interfaces."
+                        },
+                        "es": {
+                            "title": "Diseño {{UX}}",
+                            "text": "Amplia experiencia diseñando interfaces de usuario."
+                        },
+                        "fr": {
+                            "title": "Conception {{UX}}",
+                            "text": "Étudier les principes de l'expérience utilisateur."
+                        },
+                        "ko": {
+                            "title": "{{UX}} 디자인",
+                            "text": "사용자 경험 원칙을 공부하기."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-cloud",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Cloud}} experience",
+                            "text": "Experience working in the cloud (Google Cloud and Azure)."
+                        },
+                        "es": {
+                            "title": "Experiencia en la {{Nube}}",
+                            "text": "Experiencia trabajando en la nube (Google Cloud y Azure)."
+                        },
+                        "fr": {
+                            "title": "{{Photographie}} & Photoshop",
+                            "text": "Améliorer des photos avec des techniques de montage créatives."
+                        },
+                        "ko": {
+                            "title": "{{사진}} 및 포토샵",
+                            "text": "창의적인 편집 기술을 통해 사진을 향상시키기."
+                        }
+                    }
+                }
+             
+            ]
+        }
+    ]
+}
