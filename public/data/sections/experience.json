@@ -178,40 +178,74 @@
                 },
                 {
                     "id": 4,
-                    "img": "",
-                    "faIcon": "fa-brands fa-apple",
-                    "faIconColors": {"bg": "#111", "fill": "#EEE"},
-                    "dateStart": {"year": 2022, "month": 12},
-                    "dateEnd": {"now": true},
+                    "img": "images/pictures/timeline-place-adobe.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2020, "month": 12},
+                    "dateEnd": {"year": 2022, "month": 11},
                     "locales": {
                         "en": {
-                            "title": "{{Senior Backend}} Developer",
-                            "province": "California",
+                            "title": "{{Backend}} Engineer",
+                            "province": "New York",
                             "country": "US",
-                            "institution": "Apple Inc",
-                            "text": "Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:",
-                            "list": [
-                                "Security",
-                                "Scalability to handle millions of users globally",
-                                "Developing RESTful APIs",
-                                "Optimizing database performance with PostgreSQL",
-                                "Building services with Swift, PHP, and GraphQL"
-                            ],
-                            "tags": ["JavaScript", "React", "NodeJS", "PHP", "REST APIs", "Docker"]
+                            "institution": "Adobe Inc",
+                            "text": "Contributed to the development of robust backend systems for Adobe Creative Cloud, integrating third-party services and improving data processing efficiency through cloud functions.",
+                            "list": [],
+                            "tags": ["JavaScript", "Flutter", "MongoDB", "CodeIgniter", "Kubernetes"]
                         },
                         "es": {
-                            "title": "Desarrollador {{Senior Backend}}",
-                            "province": "California",
+                            "title": "Ingeniero {{Backend}}",
+                            "province": "Nueva York",
                             "country": "EE. UU.",
-                            "institution": "Apple Inc",
-                            "text": "Liderando un equipo de desarrolladores para diseñar e implementar soluciones backend para los servicios de Apple, con enfoque en:",
-                            "list": [
-                                "Seguridad",
-                                "Escalabilidad para manejar millones de usuarios a nivel global",
-                                "Desarrollo de APIs RESTful",
-                                "Optimización del rendimiento de bases de datos con PostgreSQL",
-                                "Creación de servicios con Swift, PHP y GraphQL"
-                            ],
+                            "institution": "Adobe Inc",
+                            "text": "Contribuí al desarrollo de sistemas backend robustos para Adobe Creative Cloud, integrando servicios de terceros y mejorando la eficiencia del procesamiento de datos mediante funciones en la nube.",
+                            "list": [],
+                            "tags": []
+                        },
+                        "fr": {
+                            "title": "Ingénieur {{Backend}}",
+                            "province": "New York",
+                            "country": "États-Unis",
+                            "institution": "Adobe Inc",
+                            "text": "Participation au développement de systèmes backend robustes pour Adobe Creative Cloud, intégration de services tiers et amélioration de l’efficacité du traitement des données via des fonctions cloud.",
+                            "list": [],
+                            "tags": []
+                        },
+                        "ko": {
+                            "title": "{{백엔드}} 엔지니어",
+                            "province": "뉴욕",
+                            "country": "미국",
+                            "institution": "Adobe Inc",
+                            "text": "Adobe Creative Cloud를 위한 견고한 백엔드 시스템 개발에 기여하였으며, 서드파티 서비스 통합 및 클라우드 기능을 활용한 데이터 처리 효율 향상에 집중했습니다.",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "images/pictures/timeline-tcs.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "#111", "fill": "#eee"},
+                    "dateStart": {"year": 2022, "month": 6},
+                    "dateEnd": {"year": 2025, "month": 12},
+                    "locales": {
+                        "en": {
+                            "title": "{{Application Support}} / FrontEnd Developer",
+                            "province": "CDMX",
+                            "country": "México",
+                            "institution": "TCS",
+                            "text": "I worked with clients such as Banamex, Florida Power & Light, CITI, and MetLife. I served in two different roles: Application Support and Front-End Developer.",
+                            
+                            "tags": ["JavaScript", "React", "REST APIs", "ServiceNow", "Linux", "MySQL"]
+                        },
+                        "es": {
+                            "title": "{{Application Support}} / FrontEnd Developer",
+                            "province": "CDMX",
+                            "country": "México",
+                            "institution": "TCS",
+                            "text": "Participé con clientes como (Banamex, Florida Power Light, CITI y MetLife). Participé con dos diferentes roles: Application Support y FrontEnd developer.",
+                            
                             "tags": []
                         },
                         "fr": {
